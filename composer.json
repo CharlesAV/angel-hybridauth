@@ -1,0 +1,27 @@
+{
+    "name": "angel/hybridauth",
+    "description": "",
+    "authors": [
+        {
+            "name": "Charles Konsor",
+            "email": "charles@angelvisiontech.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "angel/core": "dev-master",
+		"hybridauth/hybridauth": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/models"
+        ],
+        "psr-0": {
+            "Angel\\Hybridauth\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
